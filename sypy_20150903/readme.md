@@ -15,16 +15,16 @@ C:/users/yourname/node
 ```
 - Copy npm and npm.cmd from /npm/bin to /node.
 - Make a new batch file at /node/setpath.bat containing this command:
-  ```batch
+```batch
   @ECHO OFF
   @SET PATH=%PATH%;C:/users/yourname/node
-  ```
+```
 - Now to install http-server.
 - Open a command prompt and enter the following commands.
-  ```cmd
+```cmd
   call C:/users/yourname/node/setpath.bat
   npm install -g http-server
-  ```
+```
 - Set up reveal.js.
 - Make a new folder C:/users/yourname/presentations
 - Get the latest reveal.js github source zip.
@@ -37,11 +37,11 @@ C:/users/yourname/node
 - Put your (or my) presentation html files in the /presentations folder
 - Now run the http-server so the presentations can be viewed.
 - Open a command prompt and enter the following commands.
-  ```cmd
+```cmd
   cd C:/users/yourname/presentations
   call C:/users/yourname/node/setpath.bat
   http-server
-  ```
+```
 - Open a browser at localhost:8080/yourpresentation
   + It might be at 8081, check what http-server says when you started it.
 - Enjoy!
