@@ -29,7 +29,7 @@ C:/users/yourname/node
 - Make a new folder C:/users/yourname/presentations
 - Get the latest reveal.js github source zip.
 - Unzip reveal.js, and copy over the following folders:
-  + C:/users/yourname/presentations
+  + C:/users/yourname/presentations/revealjs/
     - css/
     - js/
     - lib/
